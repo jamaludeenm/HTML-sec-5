@@ -1,0 +1,115 @@
+.container{
+	max-width:100%;
+	margin:0 10% 0 10%;
+}
+.doc-head{
+	padding-top:30px;
+~}
+.doc-head h2{
+	display:flex;
+	justify-content:center;
+	font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #2c4964;
+	font-family:"Raleway", sans-serif;
+}
+.doc-head p{
+    font-family: "Open Sans", sans-serif;
+    color:#444444;
+	line-height: 1.5;
+}
+
+.doc-head h2::before{
+	content: "";
+    position: absolute;
+    display: block;
+    width: 113px;
+    height: 2px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 55px);
+	top:43px;
+}
+.doc-head h2::after{
+	content: "";
+    position: absolute;
+    display: block;
+    width: 38px;
+    height: 1.5px;
+    background: #1977cc;
+    left: calc(50% - 20px);
+	top:43px;
+}
+.flex-doc{
+	display:flex;
+	flex-wrap:wrap;
+	margin-top:10px;
+}
+.doc-1{
+	 
+	display:flex; 
+	width:48%;
+	box-sizing:border-box;
+	box-shadow: 0 0 8px rgba(182, 182, 182, 0.548);
+	margin:10px 10px 10px 10px;
+	padding:20px;
+	border-radius:5px;
+}
+.doc-img{
+    width:30%;
+}
+.doc-img img{
+    width:120px;
+	height:120px;
+	border-radius:100px;
+}
+.doc-cont{
+   width:70%;
+}
+.doc-cont h4{
+	font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #2c4964;
+	font-family: "Raleway", sans-serif;
+}
+.doc-cont h5{
+    display: block;
+    font-size: 14px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}	
+.doc-cont h5::after{
+	 content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #b2c8dd;
+    bottom: 0;
+    left: 0;
+}
+.doc-cont p{
+	margin: 10px 0 0 0;
+    font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.doc-ico{
+	padding-top:10px;
+}
+.doc-ico a{
+     text-decoration:none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    background: #a0bcd5;
+	color:white;
+}
